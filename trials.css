@@ -1,0 +1,33 @@
+
+body {
+  display: block;
+  margin: 0;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.so-red {
+  background-color: red;
+  margin: 0;
+  height:  240px;
+  width: 350px;
+}
+
+.flag {
+  background-color: #ffd700;
+  margin: 0;
+  height:  300px;
+  width: 500px;
+}
+
+.top-stripe {
+  background-color: black;
+  height: 100px;
+}
+
+.bottom-stripe {
+  background-color: red;
+  height: 100px;
+}
