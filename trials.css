@@ -6,6 +6,7 @@ body {
 
 h1 {
   font-family: sans-serif;
+  margin: 10px;
 }
 
 .so-red {
@@ -30,4 +31,136 @@ h1 {
 .bottom-stripe {
   background-color: red;
   height: 100px;
+}
+
+.red-box {
+  background-color: red;
+  height: 200px;
+  width: 350px;
+  margin-left: -4px;
+}
+
+.background-box {
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+  width: 600px;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 900px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.shape {
+  height: 180px;
+  width: 180px;
+  border-width: 10px;
+  border-color: black;
+  border-style: double;
+  padding: auto;
+}
+
+.circle {
+  border-style: dashed;
+  border-radius: 50%;
+  border-width: 6px;
+}
+
+.inner-box {
+  height: 118px;
+  width: 192px;
+  margin: auto;
+}
+
+.inner-box-left {
+  height: 118px;
+  width: 192px;
+  margin: 6px 0 6px 6px;
+}
+
+.inner-box-right {
+  height: 118px;
+  width: 192px;
+  margin: 6px 6px 6px 0;
+}
+
+#box1middle {
+  background-color: #cccccc;
+  height: 100px;
+  width: 25%;
+  margin: 6px 0 6px 6px;
+  align-self: baseline;
+}
+
+#box2middle {
+  background-color: #cccccc;
+  height: 75px;
+  width: 25%;
+  margin: 6px 0 49px 6px;
+}
+
+#box3middle {
+  background-color: #cccccc;
+  height: 100px;
+  width: 25%;
+  margin: 6px 6px 6px 6px;
+  align-self: baseline;
+}
+
+#box4middle {
+  background-color: #cccccc;
+  height: 75px;
+  width: 25%;
+  margin: 6px 6px 49px 0px;
+}
+
+#bottombox1 {
+  background-color: #cccccc;
+  height: 35px;
+  width: 50%;
+  margin: 89px 6px 6px 6px;
+}
+
+#bottombox2 {
+  background-color: #cccccc;
+  width: 50%;
+  height: 118px;
+  margin: 6px 6px 6px 0;
+}
+
+.dark-gray {
+  align-items: center;
+  background-color: #555555;
+}
+
+.light-gray {
+  background-color: #cccccc;
+}
+
+.blue-box {
+  background-color: blue;
+  height: 200px;
+  width: 350px;
+  margin-left: -4px;
+}
+
+.black-box {
+  background-color: black;
+  margin: 50px 0px 50px 50px;
+  height: 100px;
+  width: 100px;
+  display: inline-block
+}
+
+.inline {
+  display: inline-block;
 }
